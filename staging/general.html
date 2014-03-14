@@ -6,11 +6,11 @@
 -->
 <html>
 	<head>
-		<title>nowBegin</title> <!--Element for title bar -->
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" /><!--info for the search engines -->
-		<meta name="author" content="src053@gmail.com" />
-		<meta name="keywords" content="Technology, musings" />
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700" rel="stylesheet" /> <!--Using google fonts -->
+		<title>nowBegin</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700" rel="stylesheet" />
 		<script src="js/jquery.min.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
@@ -24,14 +24,14 @@
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
 	</head>
-	<body class="homepage">
+	<body>
 
 		<!-- Header -->
 			<header id="header">
 				<div class="logo">
 					<div>
-						<!--<span class="byline">{nowBegin}</span>-->
-						<h1>{nowBegin}</h1>
+						<h1><a href="#" id="logo">{nowBegin}</a></h1>
+						<span class="byline"></span>
 					</div>
 				</div>
 			</header>
@@ -50,71 +50,48 @@
 			</nav>
 		<!-- /Nav -->
 		
-		<!-- Banner -->
-			<div id="banner-wrapper">
-				<section id="banner">
-					<h2>Welcome to {nowBegin}</h2>
-					<h3>a site dedicated to the IT generalist</h3>
-				</section>
-			</div>
-		<!-- /Banner -->
-
 		<!-- Main -->
 			<div id="main-wrapper">
 				<div id="main" class="container">
 					<div class="row">
-						<div class="12u">
+						<div class="12u skel-cell-important">
+							<div class="content">
 							
-							<!-- Highlight -->
-								<section class="is-highlight">
-									<ul class="special">
-										<li><a href="general.html" class="fa fa-search solo"><span>General</span></a></li>
-										<li><a href="python.html" class="fa fa-chevron-right solo"><span>Python</span></a></li>
-										<li><a href="powershell.html" class="fa fa-terminal solo"><span>Powershell</span></a></li>
-										<li><a href="linux.html" class="fa fa-linux solo"><span>Linux</span></a></li>
-										<li><a href="windows.html" class="fa fa-windows solo"><span>Windows</span></a></li>
-									</ul>
-								</section>
-							<!-- /Highlight -->
-						</div>
-					</div>
+								<!-- Content -->
+						
+									<article class="is-page-content">
 
-					<div class="row">
-						<div class="12u">
+										<header>
+										<a name="general">
+											<h2>General Knowledge</h2>
+											<span class="byline">First Comment</span>
+											<ul class="meta">
+												<li class="fa fa-clock-o">5 days ago</li>
+												<li class="fa fa-comments"><a href="#">1,024</a></li>
+											</ul>
+										</header>
 
-							<!-- Blog -->
-								<section class="is-blog">
-									<h2 class="major"><span>Recent Musing</span></h2>
-									<div>
-										<div class="row">
-											<div class="9u">
-												<div class="content content-left">
-												
-													<!-- Featured Post -->
-														<article class="is-post">
-															<header>
-																<h3>Setting up your own website</h3>
-																<span class="byline">First Post</span>
-															</header>
-															<!--<a href="#" class="image image-full"><img src="images/pic05.jpg" alt="" /></a>-->
-															<p>
-															Using creative common's websites <a href="#about">check it</a>
-															</p>
-															<a href="general.html" class="button">Continue Reading</a>
-														</article>
-													<!-- /Featured Post -->
-												
-												</div>
-											</div>
+											<section>
+											<!--<span class="image image-full"><img src="images/pic05.jpg" alt="" /></span>-->
+											<p>
+												stuff to come
+											</p>
+										</section>
+										
+										<section>
+											<h3></h3>
+											<p></p>
+										</section>
 
-												
-												</div>
-											</div>
-										</div>
-									</div>
-								</section>
-							<!-- /Blog -->
-							
+										
+									</article>
+
+								<!-- /Content -->
+									</article>
+
+								<!-- /Content -->
+								
+							</div>
 						</div>
 					</div>
 				</div>
@@ -168,6 +145,7 @@
 
 			</footer>
 		<!-- /Footer -->
+
 
 	</body>
 </html>
